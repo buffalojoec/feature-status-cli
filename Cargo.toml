@@ -1,0 +1,13 @@
+[package]
+name = "feature-status-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+regex = "1.10.5"
+reqwest = { version = "0.11.27" }
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+solana-sdk = "2.0.13"
+tokio = { version = "1.29.1", features = ["full"] }
