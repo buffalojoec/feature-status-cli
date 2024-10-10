@@ -71,13 +71,13 @@ pub async fn emit(
 // As of `{}`.
 static AGAVE_FEATURES: &[Pubkey] = &[
     // Inactive on all clusters.
-    {}
+    {},
     // Active on testnet.
-    {}
+    {},
     // Active on devnet.
-    {}
+    {},
     // Active on mainnet-beta.
-    {}
+    {},
 ];
 "#,
         agave_version,
